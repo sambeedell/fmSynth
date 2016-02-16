@@ -1,0 +1,7 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AudioKit"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/AudioKit/AudioKit/Platforms/iOS/libs" "$(PODS_ROOT)/AudioKit/AudioKit/Platforms/iOS/libs"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AudioKit"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Pods-ManualFMSynthesis-AudioKit" -l"csound" -l"sndfile"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_ROOT = ${SRCROOT}/Pods

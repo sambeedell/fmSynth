@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GM1-Hy-68A" customClass="MHRotaryKnob">
+                                <rect key="frame" x="116" y="365" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="281" y="284" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ratio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZxH-bQ-3lC">
+                                <rect key="frame" x="116" y="310" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="246" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jwG-kd-YE6" customClass="MHRotaryKnob">
+                                <rect key="frame" x="223" y="365" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="426" y="284" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OK2-qi-3BF">
+                                <rect key="frame" x="223" y="310" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="416" y="246" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ratio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e3P-6z-lCY">
+                                <rect key="frame" x="116" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="330" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kaz-oB-X4y">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="416" y="330" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHD-9c-502">
+                                <rect key="frame" x="171" y="273" width="63" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="353" y="213" width="51" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oE9-cd-RGa">
+                                <rect key="frame" x="171" y="389" width="63" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="353" y="298" width="51" height="22"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Od0-pm-vX4" customClass="MHRotaryKnob">
+                                <rect key="frame" x="116" y="30" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="281" y="31" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ratio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KN1-2O-Zk7">
+                                <rect key="frame" x="116" y="88" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="78" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3FO-US-pzo" customClass="MHRotaryKnob">
+                                <rect key="frame" x="223" y="30" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="426" y="31" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rxf-4X-L65">
+                                <rect key="frame" x="223" y="88" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="416" y="78" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <view tag="4" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d0E-Qm-ePl" customClass="MHRotaryKnob">
+                                <rect key="frame" x="521" y="30" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="923" y="31" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVw-va-puY">
+                                <rect key="frame" x="521" y="88" width="63" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="907" y="66" width="66" height="48"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ratio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jAa-rO-2C1">
+                                <rect key="frame" x="116" y="194" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="161" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fine" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBw-so-5zJ">
+                                <rect key="frame" x="223" y="194" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="416" y="161" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fmi-V9-gCc">
+                                <rect key="frame" x="171" y="54" width="63" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="353" y="45" width="51" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Value" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="udW-jR-Ppj">
+                                <rect key="frame" x="171" y="160" width="63" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="353" y="128" width="51" height="22"/>
+                                </variation>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fe6-Ix-kyR" customClass="MHRotaryKnob">
+                                <rect key="frame" x="116" y="136" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="281" y="114" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NIi-as-OQv" customClass="MHRotaryKnob">
+                                <rect key="frame" x="223" y="136" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="426" y="114" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="u4q-Hy-cZm" customClass="MHRotaryKnob">
+                                <rect key="frame" x="116" y="252" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="281" y="199" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="S2T-IT-ujd" customClass="MHRotaryKnob">
+                                <rect key="frame" x="223" y="252" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="426" y="199" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <view tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7TQ-Q1-AzM" customClass="MHRotaryKnob">
+                                <rect key="frame" x="521" y="249" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="923" y="199" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <slider opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6nU-bn-zyO">
+                                <rect key="frame" x="345" y="269" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="714" y="220" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="SeY-tP-9Te"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.10000000000000001" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="sAW-Pz-SsL">
+                                <rect key="frame" x="403" y="269" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="769" y="220" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="BT7-iZ-0Qt"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6OV-uE-6IM">
+                                <rect key="frame" x="461" y="269" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="827" y="220" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="DZT-2r-bCv"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="D1C-Gq-QZM">
+                                <rect key="frame" x="287" y="156" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="654" y="136" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="gcH-Re-MyK"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="pTt-DZ-7jC">
+                                <rect key="frame" x="345" y="156" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="714" y="136" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="v9N-Pf-Etm"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.10000000000000001" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="qhg-rK-OU7">
+                                <rect key="frame" x="403" y="156" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="769" y="136" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="GOR-Oc-l1A"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MhD-ei-seJ">
+                                <rect key="frame" x="461" y="156" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="827" y="136" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="P6j-SE-4oE"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MW6-rG-YVK">
+                                <rect key="frame" x="287" y="50" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="654" y="55" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="yi6-zx-p8f"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Qla-xB-hId">
+                                <rect key="frame" x="345" y="50" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="714" y="55" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="K7e-7Z-FJK"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.10000000000000001" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BNP-bD-sGg">
+                                <rect key="frame" x="403" y="50" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="769" y="55" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="5hU-qb-4pL"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="BYc-nm-6Eo">
+                                <rect key="frame" x="461" y="50" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="827" y="55" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="odS-MG-5p7"/>
+                                </connections>
+                            </slider>
+                            <view tag="5" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1IW-Wa-8kI" customClass="MHRotaryKnob">
+                                <rect key="frame" x="521" y="463" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="923" y="428" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Master" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cer-kX-dMz">
+                                <rect key="frame" x="516" y="439" width="28" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="907" y="478" width="66" height="22"/>
+                                </variation>
+                            </label>
+                            <view tag="1" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sXx-ez-dPG" customClass="MHRotaryKnob">
+                                <rect key="frame" x="521" y="360" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="923" y="284" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <view tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JYg-OH-soc" customClass="MHRotaryKnob">
+                                <rect key="frame" x="521" y="136" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="923" y="114" width="50" height="50"/>
+                                </variation>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1b-Kh-Ywb">
+                                <rect key="frame" x="521" y="194" width="63" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="907" y="149" width="66" height="48"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Amp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Al1-na-IVh">
+                                <rect key="frame" x="526" y="310" width="63" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="907" y="233" width="66" height="48"/>
+                                </variation>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="jVO-hu-pz9">
+                                <rect key="frame" x="287" y="380" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="654" y="301" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="vAq-Ef-7Zr"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iEP-Jx-ONf">
+                                <rect key="frame" x="345" y="380" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="714" y="301" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="BR7-LZ-58K"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.10000000000000001" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0ey-Q9-qtP">
+                                <rect key="frame" x="403" y="380" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="769" y="301" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Gpg-m2-NYP"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Amo-3l-u6T">
+                                <rect key="frame" x="461" y="380" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="827" y="301" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="pLc-33-VBh"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wki-PB-FOG">
+                                <rect key="frame" x="16" y="389" width="12" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="293" width="12" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="B" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uPa-KQ-9pc">
+                                <rect key="frame" x="16" y="273" width="12" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="207" width="12" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ex-yW-sVm">
+                                <rect key="frame" x="16" y="160" width="13" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="127" width="14" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ffj-20-p6q">
+                                <rect key="frame" x="16" y="54" width="13" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="37" y="42" width="14" height="22"/>
+                                </variation>
+                            </label>
+                            <slider opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mWo-dl-PI3">
+                                <rect key="frame" x="287" y="269" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="654" y="220" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ejd-si-bEp"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amp" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tkv-HN-l1c">
+                                <rect key="frame" x="526" y="310" width="63" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="907" y="317" width="66" height="48"/>
+                                </variation>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OSC_SIN.png" translatesAutoresizingMaskIntoConstraints="NO" id="jmI-pt-Ehf">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="66" y="32" width="183" height="65"/>
+                                </variation>
+                            </imageView>
+                            <button hidden="YES" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOF-ZO-XM2">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="UP.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="36" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3dp-Kc-Rea"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQu-uO-j8S">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="DOWN.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="63" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YDi-L4-Ada"/>
+                                </connections>
+                            </button>
+                            <button tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ht-8x-bKd">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png"/>
+                                <state key="selected" image="ON.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="oscD_on">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="39" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5iB-Wy-9aK"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Po7-KM-d6F">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ON.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="66" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wWG-PP-7v5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OSC_SIN.png" translatesAutoresizingMaskIntoConstraints="NO" id="ctW-lf-LaJ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="66" y="114" width="183" height="65"/>
+                                </variation>
+                            </imageView>
+                            <button hidden="YES" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YtF-a9-Dup">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="UP.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="119" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="voq-QD-fHk"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNE-Hd-0gx">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="DOWN.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="145" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bli-zD-Xzb"/>
+                                </connections>
+                            </button>
+                            <button tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jYs-Ot-6ej">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png"/>
+                                <state key="selected" image="ON.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="oscD_on">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="122" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PFb-Bi-zM2"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUp-7d-LRi">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ON.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="148" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5rY-6I-4Cy"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OSC_SIN.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ooc-ey-MD3">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="66" y="196" width="183" height="65"/>
+                                </variation>
+                            </imageView>
+                            <button hidden="YES" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auR-Vv-keZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="UP.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="198" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bCb-bz-xbw"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa7-xd-F06">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="DOWN.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="227" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HZD-6y-Qkd"/>
+                                </connections>
+                            </button>
+                            <button tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccO-h2-x2v">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png"/>
+                                <state key="selected" image="ON.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="oscD_on">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="204" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1rG-CF-awx"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edl-vp-42O">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ON.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="230" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="u1G-Dk-mRX"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="OSC_SIN.png" translatesAutoresizingMaskIntoConstraints="NO" id="E0H-4Q-1ev">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="66" y="280" width="183" height="65"/>
+                                </variation>
+                            </imageView>
+                            <button hidden="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ueF-d7-WbW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="UP.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="282" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mTB-1r-wlO"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUw-ei-LA5">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="DOWN.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="226" y="311" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nHu-C1-9oe"/>
+                                </connections>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vdi-Dz-eqw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png"/>
+                                <state key="selected" image="ON.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="oscD_on">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="289" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e1x-pq-dSa"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgT-Wi-Aau">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected" image="ON.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="314" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eVR-Fa-Lip"/>
+                                </connections>
+                            </button>
+                            <button alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HEc-94-d9w">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="377" width="44" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="save:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xkJ-rL-I0X"/>
+                                </connections>
+                            </button>
+                            <button alpha="0.59999999999999998" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Uk-U6-L42">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.25098040699958801" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Load">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="415" width="44" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="load:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Smg-VS-pMu"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="QDt-Vn-z3R">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="separatorColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="sectionIndexTrackingBackgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="ZE5-tU-VoP">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZE5-tU-VoP" id="CeD-UH-J4K">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </tableViewCell>
+                                </prototypes>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="68" y="377" width="181" height="132"/>
+                                </variation>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="cPT-4c-IcW"/>
+                                </connections>
+                            </tableView>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jBG-fA-dyU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png"/>
+                                <state key="selected" image="ON.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="oscD_on">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="440" y="380" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BlD-cS-x7q"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Z3-OK-AN9">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="471" y="381" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="o08-Ud-hJQ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="OFF.png"/>
+                                <state key="selected" image="ON.png">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="oscD_on">
+                                            <attributes>
+                                                <font key="NSFont" metaFont="controlContent" size="11"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="440" y="411" width="23" height="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="switchButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pzD-SJ-SLK"/>
+                                </connections>
+                            </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LP" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yze-aZ-kVP">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="471" y="412" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Octave" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nf-nx-a3P">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="960" y="541" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <button tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zyi-eK-hAc">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="UP.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="966" y="557" width="42" height="44"/>
+                                </variation>
+                                <connections>
+                                    <action selector="octaveStepperChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l56-ao-Qh2"/>
+                                </connections>
+                            </button>
+                            <button tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RQs-Nt-xbm">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="DOWN.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="966" y="619" width="42" height="44"/>
+                                </variation>
+                                <connections>
+                                    <action selector="octaveStepperChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e1I-aj-K6h"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vbq-tZ-Z7b">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="271" y="380" width="133" height="129"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algorithm Routing" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S5a-eU-VGV">
+                                <rect key="frame" x="90" y="518" width="76" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="276" y="383" width="130" height="22"/>
+                                </variation>
+                            </label>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZvH-jY-PGv" customClass="MHRotaryKnob">
+                                <rect key="frame" x="223" y="365" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="526" y="384" width="26" height="26"/>
+                                </variation>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PJT-Bm-wDm" customClass="MHRotaryKnob">
+                                <rect key="frame" x="223" y="365" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="590" y="384" width="26" height="26"/>
+                                </variation>
+                            </view>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cutoff" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4KE-rp-TUG">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="526" y="413" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Res" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q0r-13-jxv">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="590" y="413" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFd-fO-AXx">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="RIGHT.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBound" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="350" y="482" width="51" height="25"/>
+                                </variation>
+                                <connections>
+                                    <action selector="algorithmChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o44-JJ-z9h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="-1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxN-Wh-rFB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <state key="normal" image="LEFT.png"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBound" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="274" y="482" width="51" height="25"/>
+                                </variation>
+                                <connections>
+                                    <action selector="algorithmChanged:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VKq-BZ-HJE"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zz8-7s-SK1">
+                                <rect key="frame" x="287" y="473" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="654" y="448" width="80" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="TG6-6Z-F1c"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.10000000000000001" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Dg3-3G-KcR">
+                                <rect key="frame" x="345" y="473" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="714" y="448" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="gnn-gE-p7K"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MzN-ka-hYV">
+                                <rect key="frame" x="403" y="473" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="769" y="448" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="TKU-r8-EFq"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="1" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="eOU-Qf-dOh">
+                                <rect key="frame" x="461" y="473" width="54" height="31"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="827" y="448" width="74" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="envelopeChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Peh-jU-LMI"/>
+                                </connections>
+                            </slider>
+                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TsF-iM-S9K">
+                                <rect key="frame" x="-61" y="-14" width="123" height="29"/>
+                                <segments>
+                                    <segment title="Master Env"/>
+                                    <segment title="Pitch Env"/>
+                                </segments>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="656" y="383" width="317" height="29"/>
+                                </variation>
+                            </segmentedControl>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I8F-0P-gzJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="BJD-0F-bSe"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="f0e-uJ-cTA"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="4vg-7p-UFd"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l9O-cT-15x"/>
+                                </connections>
+                            </button>
+                            <button tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ve7-Sj-RPR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="Hjb-W5-d2j"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="IL1-wf-Km2"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pch-U0-dUo"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="twI-B8-fhc"/>
+                                </connections>
+                            </button>
+                            <button tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pb5-fV-DHZ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="190" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="19a-96-uwH"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="o4L-wi-7f6"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aHR-cu-k1D"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="oaz-bL-lfr"/>
+                                </connections>
+                            </button>
+                            <button tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iA-bP-EYJ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_bA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_bB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="72" y="533" width="50" height="123"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="FAy-2V-19f"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="p79-gw-DJa"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lc4-8b-WOb"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="wFT-Ph-QEf"/>
+                                </connections>
+                            </button>
+                            <button tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVY-d4-OIy">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_bA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_bB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="167" y="533" width="50" height="123"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="2UT-1P-GcB"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="DrP-ej-PIG"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="78Y-CU-JFc"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NXt-ll-iDS"/>
+                                </connections>
+                            </button>
+                            <button tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9f-WL-SKR">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="285" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="9aU-2c-4iZ"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="3s0-WK-NVJ"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5X3-Gg-rul"/>
+                                </connections>
+                            </button>
+                            <button tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHl-R6-FWB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="380" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="NeW-Bq-grD"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="kyR-lc-V3d"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="V3Z-d7-Kws"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tBb-Ne-ScB"/>
+                                </connections>
+                            </button>
+                            <button tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VUL-wD-93k">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="475" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="hyr-V0-LfA"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="ynU-uZ-Eh2"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A5O-sF-o96"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="a7L-BR-7e7"/>
+                                </connections>
+                            </button>
+                            <button tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o87-tH-lgS">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_bA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_bB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="357" y="533" width="50" height="123"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="3hT-hA-bll"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="7TG-kr-yOZ"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ec8-Eq-uIg"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="sPE-8R-7NE"/>
+                                </connections>
+                            </button>
+                            <button tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUh-hD-nHB">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_bA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_bB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="452" y="533" width="50" height="123"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="MXk-Ph-eBq"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="oMS-gG-rZK"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sx4-Ep-FDT"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="Xfs-RJ-c1u"/>
+                                </connections>
+                            </button>
+                            <button tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ph2-0o-htD">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="571" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="BiX-Ha-VpD"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="EhZ-oU-2Ku"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YMd-IY-den"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="ayl-eX-3hs"/>
+                                </connections>
+                            </button>
+                            <button tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bF9-64-vx3">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_bA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_bB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="548" y="533" width="50" height="123"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="dhn-Vw-3UL"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="g47-i2-BTf"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="Vb6-qQ-rCU"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xN5-Gk-aGZ"/>
+                                </connections>
+                            </button>
+                            <button tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oCt-w9-U3N">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="666" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="J4P-XX-vmU"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="aGn-sJ-M8Z"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="juc-Qt-5w8"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m4Z-ih-8Tj"/>
+                                </connections>
+                            </button>
+                            <button tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73m-dq-PNE">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="761" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="YYm-L4-Rhc"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="mLM-pH-lkS"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="3nP-d0-bIj"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aiK-mf-vbU"/>
+                                </connections>
+                            </button>
+                            <button tag="16" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyU-Fs-HTH">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_wA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_wB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="856" y="533" width="97" height="236"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="fIG-XK-ZTd"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="txj-dT-iru"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="3Uh-a9-5eA"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kno-zH-zai"/>
+                                </connections>
+                            </button>
+                            <button tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eK-qh-kt4">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_bA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_bB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="738" y="533" width="50" height="123"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="2O6-Ma-Oca"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="MZr-jf-8Ru"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bq5-j6-eWn"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="dGN-jU-I8d"/>
+                                </connections>
+                            </button>
+                            <button tag="15" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TdP-Rk-53I">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="key_bA.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="key_bB.png"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="833" y="533" width="50" height="123"/>
+                                </variation>
+                                <connections>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDragEnter" id="ceN-Bp-Bwa"/>
+                                    <action selector="keyPressed:" destination="BYZ-38-t0r" eventType="touchDown" id="xAV-4N-9DO"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchDragExit" id="ats-Cc-UZB"/>
+                                    <action selector="keyReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxf-r2-qbp"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L4o-OX-H9u">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="333" y="484" width="26" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="C4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A2y-QW-Q7Y">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="976" y="600" width="31" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m8Q-DJ-4qm">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="666" y="281" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90p-VZ-47G">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="726" y="281" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igs-NC-aZA">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="781" y="281" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9XL-ky-3cV">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="839" y="281" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yZG-Rt-48q">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="666" y="197" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YMz-8A-TJT">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="726" y="197" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0f7-j7-EWg">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="781" y="197" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOO-Q2-IDn">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="839" y="197" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1iE-zK-bff">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="666" y="116" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ebs-sg-eTJ">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="726" y="116" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WXA-Um-12s">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="781" y="116" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ir3-hL-Yfn">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="839" y="116" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyS-Bv-zbX">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="666" y="31" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwz-Sa-Q4D">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="726" y="31" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pgb-b2-fve">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="781" y="31" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ce-gY-uI2">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="839" y="31" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HTF-5U-6yD">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="666" y="425" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="D" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9ZE-Pb-l48">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="726" y="425" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HpP-Pf-Jbd">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="781" y="425" width="64" height="22"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAJ-cP-5it">
+                                <rect key="frame" x="223" y="423" width="63" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="839" y="425" width="64" height="22"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="tkv-HN-l1c"/>
+                                <exclude reference="jmI-pt-Ehf"/>
+                                <exclude reference="hOF-ZO-XM2"/>
+                                <exclude reference="gQu-uO-j8S"/>
+                                <exclude reference="9ht-8x-bKd"/>
+                                <exclude reference="Po7-KM-d6F"/>
+                                <exclude reference="ctW-lf-LaJ"/>
+                                <exclude reference="YtF-a9-Dup"/>
+                                <exclude reference="nNE-Hd-0gx"/>
+                                <exclude reference="jYs-Ot-6ej"/>
+                                <exclude reference="QUp-7d-LRi"/>
+                                <exclude reference="Ooc-ey-MD3"/>
+                                <exclude reference="auR-Vv-keZ"/>
+                                <exclude reference="aa7-xd-F06"/>
+                                <exclude reference="ccO-h2-x2v"/>
+                                <exclude reference="edl-vp-42O"/>
+                                <exclude reference="E0H-4Q-1ev"/>
+                                <exclude reference="ueF-d7-WbW"/>
+                                <exclude reference="lUw-ei-LA5"/>
+                                <exclude reference="Vdi-Dz-eqw"/>
+                                <exclude reference="mgT-Wi-Aau"/>
+                                <exclude reference="HEc-94-d9w"/>
+                                <exclude reference="9Uk-U6-L42"/>
+                                <exclude reference="QDt-Vn-z3R"/>
+                                <exclude reference="jBG-fA-dyU"/>
+                                <exclude reference="2Z3-OK-AN9"/>
+                                <exclude reference="o08-Ud-hJQ"/>
+                                <exclude reference="yze-aZ-kVP"/>
+                                <exclude reference="9nf-nx-a3P"/>
+                                <exclude reference="Zyi-eK-hAc"/>
+                                <exclude reference="RQs-Nt-xbm"/>
+                                <exclude reference="Vbq-tZ-Z7b"/>
+                                <exclude reference="S5a-eU-VGV"/>
+                                <exclude reference="ZvH-jY-PGv"/>
+                                <exclude reference="PJT-Bm-wDm"/>
+                                <exclude reference="4KE-rp-TUG"/>
+                                <exclude reference="Q0r-13-jxv"/>
+                                <exclude reference="RFd-fO-AXx"/>
+                                <exclude reference="bxN-Wh-rFB"/>
+                                <exclude reference="TsF-iM-S9K"/>
+                                <exclude reference="I8F-0P-gzJ"/>
+                                <exclude reference="Ve7-Sj-RPR"/>
+                                <exclude reference="Pb5-fV-DHZ"/>
+                                <exclude reference="8iA-bP-EYJ"/>
+                                <exclude reference="pVY-d4-OIy"/>
+                                <exclude reference="j9f-WL-SKR"/>
+                                <exclude reference="gHl-R6-FWB"/>
+                                <exclude reference="VUL-wD-93k"/>
+                                <exclude reference="o87-tH-lgS"/>
+                                <exclude reference="IUh-hD-nHB"/>
+                                <exclude reference="ph2-0o-htD"/>
+                                <exclude reference="bF9-64-vx3"/>
+                                <exclude reference="oCt-w9-U3N"/>
+                                <exclude reference="73m-dq-PNE"/>
+                                <exclude reference="cyU-Fs-HTH"/>
+                                <exclude reference="3eK-qh-kt4"/>
+                                <exclude reference="TdP-Rk-53I"/>
+                                <exclude reference="L4o-OX-H9u"/>
+                                <exclude reference="A2y-QW-Q7Y"/>
+                                <exclude reference="m8Q-DJ-4qm"/>
+                                <exclude reference="90p-VZ-47G"/>
+                                <exclude reference="Igs-NC-aZA"/>
+                                <exclude reference="9XL-ky-3cV"/>
+                                <exclude reference="yZG-Rt-48q"/>
+                                <exclude reference="YMz-8A-TJT"/>
+                                <exclude reference="0f7-j7-EWg"/>
+                                <exclude reference="ZOO-Q2-IDn"/>
+                                <exclude reference="1iE-zK-bff"/>
+                                <exclude reference="ebs-sg-eTJ"/>
+                                <exclude reference="WXA-Um-12s"/>
+                                <exclude reference="ir3-hL-Yfn"/>
+                                <exclude reference="dyS-Bv-zbX"/>
+                                <exclude reference="cwz-Sa-Q4D"/>
+                                <exclude reference="Pgb-b2-fve"/>
+                                <exclude reference="4ce-gY-uI2"/>
+                                <exclude reference="HTF-5U-6yD"/>
+                                <exclude reference="9ZE-Pb-l48"/>
+                                <exclude reference="HpP-Pf-Jbd"/>
+                                <exclude reference="LAJ-cP-5it"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="tkv-HN-l1c"/>
+                                <include reference="jmI-pt-Ehf"/>
+                                <include reference="hOF-ZO-XM2"/>
+                                <include reference="gQu-uO-j8S"/>
+                                <include reference="9ht-8x-bKd"/>
+                                <include reference="Po7-KM-d6F"/>
+                                <include reference="ctW-lf-LaJ"/>
+                                <include reference="YtF-a9-Dup"/>
+                                <include reference="nNE-Hd-0gx"/>
+                                <include reference="jYs-Ot-6ej"/>
+                                <include reference="QUp-7d-LRi"/>
+                                <include reference="Ooc-ey-MD3"/>
+                                <include reference="auR-Vv-keZ"/>
+                                <include reference="aa7-xd-F06"/>
+                                <include reference="ccO-h2-x2v"/>
+                                <include reference="edl-vp-42O"/>
+                                <include reference="E0H-4Q-1ev"/>
+                                <include reference="ueF-d7-WbW"/>
+                                <include reference="lUw-ei-LA5"/>
+                                <include reference="Vdi-Dz-eqw"/>
+                                <include reference="mgT-Wi-Aau"/>
+                                <include reference="HEc-94-d9w"/>
+                                <include reference="9Uk-U6-L42"/>
+                                <include reference="QDt-Vn-z3R"/>
+                                <include reference="jBG-fA-dyU"/>
+                                <include reference="2Z3-OK-AN9"/>
+                                <include reference="o08-Ud-hJQ"/>
+                                <include reference="yze-aZ-kVP"/>
+                                <include reference="9nf-nx-a3P"/>
+                                <include reference="Zyi-eK-hAc"/>
+                                <include reference="RQs-Nt-xbm"/>
+                                <include reference="Vbq-tZ-Z7b"/>
+                                <include reference="S5a-eU-VGV"/>
+                                <include reference="ZvH-jY-PGv"/>
+                                <include reference="PJT-Bm-wDm"/>
+                                <include reference="4KE-rp-TUG"/>
+                                <include reference="Q0r-13-jxv"/>
+                                <include reference="RFd-fO-AXx"/>
+                                <include reference="bxN-Wh-rFB"/>
+                                <include reference="TsF-iM-S9K"/>
+                                <include reference="I8F-0P-gzJ"/>
+                                <include reference="Ve7-Sj-RPR"/>
+                                <include reference="Pb5-fV-DHZ"/>
+                                <include reference="8iA-bP-EYJ"/>
+                                <include reference="pVY-d4-OIy"/>
+                                <include reference="j9f-WL-SKR"/>
+                                <include reference="gHl-R6-FWB"/>
+                                <include reference="VUL-wD-93k"/>
+                                <include reference="o87-tH-lgS"/>
+                                <include reference="IUh-hD-nHB"/>
+                                <include reference="ph2-0o-htD"/>
+                                <include reference="bF9-64-vx3"/>
+                                <include reference="oCt-w9-U3N"/>
+                                <include reference="73m-dq-PNE"/>
+                                <include reference="cyU-Fs-HTH"/>
+                                <include reference="3eK-qh-kt4"/>
+                                <include reference="TdP-Rk-53I"/>
+                                <include reference="L4o-OX-H9u"/>
+                                <include reference="A2y-QW-Q7Y"/>
+                                <include reference="m8Q-DJ-4qm"/>
+                                <include reference="90p-VZ-47G"/>
+                                <include reference="Igs-NC-aZA"/>
+                                <include reference="9XL-ky-3cV"/>
+                                <include reference="yZG-Rt-48q"/>
+                                <include reference="YMz-8A-TJT"/>
+                                <include reference="0f7-j7-EWg"/>
+                                <include reference="ZOO-Q2-IDn"/>
+                                <include reference="1iE-zK-bff"/>
+                                <include reference="ebs-sg-eTJ"/>
+                                <include reference="WXA-Um-12s"/>
+                                <include reference="ir3-hL-Yfn"/>
+                                <include reference="dyS-Bv-zbX"/>
+                                <include reference="cwz-Sa-Q4D"/>
+                                <include reference="Pgb-b2-fve"/>
+                                <include reference="4ce-gY-uI2"/>
+                                <include reference="HTF-5U-6yD"/>
+                                <include reference="9ZE-Pb-l48"/>
+                                <include reference="HpP-Pf-Jbd"/>
+                                <include reference="LAJ-cP-5it"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="algorithmImage" destination="Vbq-tZ-Z7b" id="2xp-NM-oaV"/>
+                        <outlet property="algorithmLabel" destination="L4o-OX-H9u" id="goe-6y-8kJ"/>
+                        <outlet property="algorithmLeft" destination="bxN-Wh-rFB" id="lTt-aC-lIG"/>
+                        <outlet property="algorithmRight" destination="RFd-fO-AXx" id="vp1-po-WDj"/>
+                        <outlet property="filter_cutoff" destination="ZvH-jY-PGv" id="baZ-ox-ckB"/>
+                        <outlet property="filter_res" destination="PJT-Bm-wDm" id="Z5n-K4-6Ab"/>
+                        <outlet property="master_amp" destination="1IW-Wa-8kI" id="nSm-Ax-Co4"/>
+                        <outlet property="octaveDown" destination="RQs-Nt-xbm" id="DrS-dF-Cyd"/>
+                        <outlet property="octaveLabel" destination="A2y-QW-Q7Y" id="zcg-pT-lTZ"/>
+                        <outlet property="octaveUp" destination="Zyi-eK-hAc" id="QjZ-oG-w43"/>
+                        <outlet property="oscA_amp" destination="sXx-ez-dPG" id="jgD-yI-673"/>
+                        <outlet property="oscA_down" destination="lUw-ei-LA5" id="eEs-6M-NN8"/>
+                        <outlet property="oscA_fine" destination="jwG-kd-YE6" id="akf-4g-Pd9"/>
+                        <outlet property="oscA_fixed" destination="mgT-Wi-Aau" id="cHi-tO-2Bn"/>
+                        <outlet property="oscA_on" destination="Vdi-Dz-eqw" id="Ucl-8V-bQn"/>
+                        <outlet property="oscA_osc" destination="E0H-4Q-1ev" id="PcB-U4-cZX"/>
+                        <outlet property="oscA_ratio" destination="GM1-Hy-68A" id="Pau-Vo-Il0"/>
+                        <outlet property="oscA_up" destination="ueF-d7-WbW" id="iIZ-Gz-zlD"/>
+                        <outlet property="oscA_value" destination="oE9-cd-RGa" id="BvW-T3-o9S"/>
+                        <outlet property="oscB_amp" destination="7TQ-Q1-AzM" id="aD7-ws-cJx"/>
+                        <outlet property="oscB_down" destination="aa7-xd-F06" id="Rax-0Z-lLB"/>
+                        <outlet property="oscB_fine" destination="S2T-IT-ujd" id="lzf-C8-e4p"/>
+                        <outlet property="oscB_fixed" destination="edl-vp-42O" id="6BO-0P-STa"/>
+                        <outlet property="oscB_on" destination="ccO-h2-x2v" id="ulD-VQ-hEy"/>
+                        <outlet property="oscB_osc" destination="Ooc-ey-MD3" id="N9q-bd-EMO"/>
+                        <outlet property="oscB_ratio" destination="u4q-Hy-cZm" id="WG5-qf-MEH"/>
+                        <outlet property="oscB_up" destination="auR-Vv-keZ" id="EoN-Dn-W9Y"/>
+                        <outlet property="oscB_value" destination="kHD-9c-502" id="T3Q-VC-IAF"/>
+                        <outlet property="oscC_amp" destination="JYg-OH-soc" id="VXH-ub-RW2"/>
+                        <outlet property="oscC_down" destination="nNE-Hd-0gx" id="RDz-Pu-8og"/>
+                        <outlet property="oscC_fine" destination="NIi-as-OQv" id="hNr-BQ-wRM"/>
+                        <outlet property="oscC_fixed" destination="QUp-7d-LRi" id="uB1-vO-jdM"/>
+                        <outlet property="oscC_on" destination="jYs-Ot-6ej" id="soH-CK-BvW"/>
+                        <outlet property="oscC_osc" destination="ctW-lf-LaJ" id="TBO-tg-NOQ"/>
+                        <outlet property="oscC_ratio" destination="Fe6-Ix-kyR" id="sbq-TM-zIF"/>
+                        <outlet property="oscC_up" destination="YtF-a9-Dup" id="ceu-Ia-Qm0"/>
+                        <outlet property="oscC_value" destination="udW-jR-Ppj" id="77c-2F-Pqi"/>
+                        <outlet property="oscD_amp" destination="d0E-Qm-ePl" id="hNM-CV-TMA"/>
+                        <outlet property="oscD_down" destination="gQu-uO-j8S" id="cuV-0h-glV"/>
+                        <outlet property="oscD_fine" destination="3FO-US-pzo" id="mX5-yD-Lh4"/>
+                        <outlet property="oscD_fixed" destination="Po7-KM-d6F" id="cL1-Gt-zfi"/>
+                        <outlet property="oscD_on" destination="9ht-8x-bKd" id="vWe-k1-fM0"/>
+                        <outlet property="oscD_osc" destination="jmI-pt-Ehf" id="C9n-sv-Zbj"/>
+                        <outlet property="oscD_ratio" destination="Od0-pm-vX4" id="me9-UO-Kpa"/>
+                        <outlet property="oscD_up" destination="hOF-ZO-XM2" id="g1S-Sf-wPf"/>
+                        <outlet property="oscD_value" destination="fmi-V9-gCc" id="Yc7-Z3-OhF"/>
+                        <outlet property="sliderA_attack" destination="jVO-hu-pz9" id="8ed-VQ-hOQ"/>
+                        <outlet property="sliderA_decay" destination="iEP-Jx-ONf" id="SoV-Yd-NWI"/>
+                        <outlet property="sliderA_release" destination="Amo-3l-u6T" id="4h4-3a-5xL"/>
+                        <outlet property="sliderA_sustain" destination="0ey-Q9-qtP" id="1s1-Td-FSK"/>
+                        <outlet property="sliderB_attack" destination="mWo-dl-PI3" id="iyz-0G-ObN"/>
+                        <outlet property="sliderB_decay" destination="6nU-bn-zyO" id="8bQ-tS-d8O"/>
+                        <outlet property="sliderB_release" destination="6OV-uE-6IM" id="pAz-d1-G9O"/>
+                        <outlet property="sliderB_sustain" destination="sAW-Pz-SsL" id="knx-L8-HQu"/>
+                        <outlet property="sliderC_attack" destination="D1C-Gq-QZM" id="FGa-9w-VCw"/>
+                        <outlet property="sliderC_decay" destination="pTt-DZ-7jC" id="W6H-gB-s1Q"/>
+                        <outlet property="sliderC_release" destination="MhD-ei-seJ" id="BxM-H0-Zpk"/>
+                        <outlet property="sliderC_sustain" destination="qhg-rK-OU7" id="wNh-XT-Mf0"/>
+                        <outlet property="sliderD_attack" destination="MW6-rG-YVK" id="uUR-ho-1j8"/>
+                        <outlet property="sliderD_decay" destination="Qla-xB-hId" id="JMe-Wn-Z8a"/>
+                        <outlet property="sliderD_release" destination="BYc-nm-6Eo" id="033-S4-1BS"/>
+                        <outlet property="sliderD_sustain" destination="BNP-bD-sGg" id="cPL-bs-80W"/>
+                        <outlet property="sliderZ_attack" destination="Zz8-7s-SK1" id="ayi-n0-7Ec"/>
+                        <outlet property="sliderZ_decay" destination="Dg3-3G-KcR" id="pPL-ez-Sz7"/>
+                        <outlet property="sliderZ_release" destination="eOU-Qf-dOh" id="bwc-RX-0dm"/>
+                        <outlet property="sliderZ_sustain" destination="MzN-ka-hYV" id="aSj-CE-1mz"/>
+                        <outlet property="tableView" destination="QDt-Vn-z3R" id="hkk-9V-1ru"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24" y="331.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="DOWN.png" width="133" height="138"/>
+        <image name="LEFT.png" width="302" height="138"/>
+        <image name="OFF.png" width="133" height="137"/>
+        <image name="ON.png" width="122" height="137"/>
+        <image name="OSC_SIN.png" width="1111" height="403"/>
+        <image name="RIGHT.png" width="302" height="137"/>
+        <image name="UP.png" width="133" height="137"/>
+        <image name="key_bA.png" width="101" height="256"/>
+        <image name="key_bB.png" width="98" height="254"/>
+        <image name="key_wA.png" width="190" height="496"/>
+        <image name="key_wB.png" width="190" height="496"/>
+    </resources>
+</document>

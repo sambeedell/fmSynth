@@ -1,0 +1,28 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf160
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Bold;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\b\fs24 \cf0 FM Synthesiser
+\b0 \
+\
+To use this FM synthesiser there are first some step you must take.\
+\
+To open this project in Xcode, please be sure to open the \'91ManualFMSynthesis.xcworkspace\'92 file not the \'91ManualFMSynthesis.xcodeproj\'92.\
+\
+To load the presets into this synth, the preferences folder of Xcode\'92s simulator instance must be located. This will require first simulating this application, then pressing the \'91Save\'92 button on the left of the centre GUI. This will print a directory onto the console in Xcode 6, which should look something like this:\
+\
+\pard\tx529\pardeftab529\pardirnatural
+
+\f1\b\fs22 \cf0 \CocoaLigature0 /Users/yourname/Library/Developer/CoreSimulator/Devices/YOUR-DEVICE-NUMBER/data/Containers/Data/Application/YOUR-DEVICE-NUMBER/Library/Preferences
+\f0\b0\fs24 \CocoaLigature1 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \
+The file called \'92AudioKit.ManualFMSynthesis.plist\'92 must replace the current .plist file to gain access to the preset sounds. In doing so, when the simulation is reset the sounds should be loaded into the synthesiser.\
+\
+If you wish to test using an iPad, you can just plug in and go! Unfortunately you will not have access to the preset sounds but are still able to experiment with this synthesiser and make your own sounds. The sounds made can be stored locally onto the device until the app is uninstalled.\
+\
+If you are struggling to get any sound out of the application, please try restarting it.\
+\
+}
